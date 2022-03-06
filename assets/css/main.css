@@ -2283,3 +2283,14 @@ button,
 .info {
   text-transform: none;
 }
+
+#span-img {
+  position: relative;
+}
+
+#pic {
+  position: absolute;
+  /* top: -100px;
+  left: -100px; */
+  width: 50px;
+}
