@@ -118,7 +118,7 @@ a {
     border-bottom-color: #1FB2A5;
     color: #1FB2A5 !important; }
     a:hover strong {
-      color: inherit; }
+      color: inherit !important; }
 
 strong, b {
   color: #A6ADBB;
@@ -2304,3 +2304,7 @@ textarea {
   background: #cfd4d8!important;
   margin-bottom: 5%;
 }
+
+/* .hidden {
+
+} */

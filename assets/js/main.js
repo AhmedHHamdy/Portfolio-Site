@@ -275,3 +275,39 @@ function aboutMe() {
 function returnHome() {
 	location.href = "index.html"
 }
+
+let night = true
+document.querySelector('#nightmode').addEventListener('click', nightMode) 
+
+
+	function nightMode() {
+		if (night === true ) {
+			document.querySelector('#nightmode').classList.remove('fa-moon')
+			document.querySelector('#nightmode').classList.add('fa-sun')
+			document.querySelector('body').style.backgroundColor = '#FFFFFF'
+			document.querySelector('#sidebar').style.backgroundColor = '#F5F6F7'
+			document.querySelector('body').style.color = '#7f888f'
+			document.querySelector('h1').style.color = '#3D4449'
+			document.querySelector('h2').style.color = '#3D4449'
+			document.querySelector('#h3One').style.color = '#3D4449'
+			document.querySelector('#h3Two').style.color = '#3D4449'
+			document.querySelector('#h3Three').style.color = '#3D4449'
+			document.querySelector('#h3Four').style.color = '#3D4449'
+			document.querySelector('#projectsHeader').style.color = '#3D4449'
+			document.querySelector('#getInTouchHeader').style.color = '#3D4449'
+			document.querySelector('#letsConnectHeader').style.color = '#3D4449'
+			document.querySelector('#letsConnectHeader').style.color = '#3D4449'
+			document.querySelector('#toolsOne').style.color = '#3D4449'
+			document.querySelector('#toolsTwo').style.color = '#3D4449'
+			document.querySelector('#toolsThree').style.color = '#3D4449'
+			document.querySelector('#toolsFour').style.color = '#3D4449'
+			document.querySelector('#logoHeader').style.color = '#3D4449'
+			document.querySelector('#logoHeaderS').style.color = '#3D4449'
+			night = false
+		} else {
+			location.reload();
+			// night = true
+		}
+	}
+
+
