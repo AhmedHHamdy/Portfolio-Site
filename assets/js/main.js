@@ -266,7 +266,7 @@ document.querySelector('#about-me').addEventListener('click', aboutMe)
 function aboutMe() {
 	document.querySelector('#anchor').innerText = 'Home'
 	document.querySelector('#heading').innerText = "About Me"
-	document.querySelector('#desc').innerText = "My name is Ahmed Hamdy. I'm a full stack software engineer based in cairo. I have a passion for designing and love to create for web, Love to figure how things work and modify them."
+	document.querySelector('#desc').innerHTML = "My name is Ahmed Hamdy.  I am a Full-Stack Software Engineer specializing in the MERN stack. <br><br> I have a passion for designing and love to create for web, committed to a lifetime of finding solutions, and learning new things. I strive to bring joy to those around me and live with passion. <br><br>"
 	document.querySelector('#break').style.display = 'block' 
 	document.querySelector('#desc-2').style.display = 'block'
 	document.querySelector('#about-me').addEventListener('click', returnHome)
